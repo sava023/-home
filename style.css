@@ -30,6 +30,10 @@
          header a{ 
             font-size: 10px;
          }
+         #perexod{ 
+            top: auto;
+         }
+  
   }
   
   @media (min-width:320) {
@@ -39,6 +43,10 @@
          header a { 
             font-size: 5px;
          }
+         #perexod{ 
+            top: auto;
+         }
+  
   }
 
   @media (min-width:100) {
@@ -47,7 +55,11 @@
        }
        header a { 
           font-size: 10px;
-       }
+       } 
+        #perexod{ 
+        top: auto;
+     }
+
 }
 
 
