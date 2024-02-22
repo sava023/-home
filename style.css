@@ -43,26 +43,25 @@
        font-size: 10px;
     }
 #h1{ 
-   max-width: 20%;
     width: 1000px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 #opisanie{ 
     margin-left: 60px;
- max-width: 20%;
+ 
 }
 #vxod{ 
     margin-left: 20vmax;
 }
 header{ 
     max-width: 20%;   
-     margin-top: 14vmax;
+     margin-top: -10vmax;
 }
  main{ 
     margin-top: 20vmax;
 }
 iframe { 
-    max-width: 20%;
+    max-width: 600%;
    margin-left: -200px;
 }
 #perexod{ 
