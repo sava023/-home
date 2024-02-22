@@ -39,19 +39,19 @@
 } 
 @media(min-width:200px) {
     body{ 
-       max-width: 40%;
+       max-width: 20%;
        font-size: 10px;
     }
 #h1{ 
     width: 1000px;
-    margin-left: -50px;
+    margin-left: -55px;
 }
 #opisanie{ 
-    margin-left: -10px;
+    margin-left: -15px;
  
 }
 #vxod{ 
-    margin-left: 20vmax;
+    margin-left: 15vmax;
 }
 header{ 
     max-width: 20%;   
@@ -79,7 +79,7 @@ footer{
     margin-left: 10px;
  }
  #vigoda{
-    margin-left: 20px;
+    margin-left: 30px;
  }
    } 
 
