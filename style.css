@@ -27,12 +27,7 @@
       body{
           max-width: 20%;
          }
-         header a{ 
-            font-size: 10px;
-         }
-         #perexod{ 
-            top: auto;
-         }
+     
   
   }
   
@@ -40,25 +35,14 @@
       body{
           max-width: 10%;
          }
-         header a { 
-            font-size: 5px;
-         }
-         #perexod{ 
-            top: auto;
-         }
-  
+    
   }
 
   @media (min-width:100) {
     body{
         max-width: 10%;
        }
-       header a { 
-          font-size: 10px;
-       } 
-        #perexod{ 
-        top: auto;
-     }
+  
 
 }
 
@@ -73,14 +57,13 @@ body{
     width: 49px;
     bottom: 0;
     position: relative ;
-   
     left: 3%;
 }
 #vxod{ 
     position: absolute;
     top: 1vmax;
     left: 90vmax;
-    text-decoration: none   ;
+    text-decoration: none;
     background-color: transparent;
     border: 2px solid black;
     color: black;
