@@ -21,6 +21,9 @@
         top: 2vmax;
         left: 200vmax;
     }
+    html{
+        max-width: 50%;
+    }
 
 }
 
