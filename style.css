@@ -1,45 +1,42 @@
 @media(min-width:1200px) {
-   #vxod{
-    max-width: 970px;
-    position: relative;
-    left: 400vmax;
-   }
    body{ 
     max-width: 100%;
+   }
+   header{ 
+    margin-top: -10vmax;
    }
   }
   
   @media(min-width:992px) {
-  #vxod{
-    max-width: 750px;
-    position: relative;
-    left: 400vmax;
-  }
+    header{ 
+        margin-top: -10vmax;
+       }
   body{ 
     max-width: 50%;
   }
+
   }
   
   @media(min-width:768px) {
-    #vxod{ 
-        max-width: none;
-        position: relative;
-        top: 2vmax;
-        left: 200vmax;
-        width: 10px;
-    }
+   
     body{
         max-width: 100%;
     }
+    header{ 
+        margin-top: -10vmax;
+       }
 }
 @media(min-width:578px) {
  body{ 
-    max-width: 100%;
+    max-width: 10%;
  }
+ header{ 
+    margin-top: -7vmax;
+   }
 } 
-@media(min-width:200px) {
+@media(min-width:200px)  {
     body{ 
-       max-width: 4%;
+       max-width: 400px;
     }
 #h1{ 
     width: 1000px;
