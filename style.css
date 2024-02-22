@@ -1,17 +1,17 @@
-@media (min-width:1200) {
+@media(min-width:1200) {
     body{
       max-width: 90%;
     }
       
   }
   
-  @media (min-width:992) {
+  @media(min-width:992) {
      body{
       max-width: 50%;
      }
   }
   
-  @media (min-width:768) {
+  @media(min-width:768) {
       body{
           max-width: 30%;
          }
@@ -23,7 +23,7 @@
          }
   }
   
-  @media (min-width:480) {
+  @media(min-width:480) {
       body{
           max-width: 20%;
          }
@@ -31,17 +31,20 @@
   
   }
   
-  @media (min-width:320) {
+  @media(min-width:320) {
       body{
           max-width: 10%;
          }
     
   }
 
-  @media (min-width:100) {
+  @media(min-width:100) {
     body{
         max-width: 10%;
        }
+    #vxod{ 
+        left: 80vmax;
+    }
   
 
 }
