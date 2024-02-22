@@ -43,7 +43,7 @@
     }
 #h1{ 
     width: 1000px;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 #opisanie{ 
     margin-left: -20px;
@@ -54,7 +54,7 @@
 }
 header{ 
     max-width: 20%;   
-     margin-top: -5vmax;
+     margin-top: -8vmax;
 }
  main{ 
     margin-top: 20vmax;
@@ -79,6 +79,9 @@ footer{
  }
  #vigoda{
     margin-left: 30px;
+ }
+ #prim{ 
+    margin-left: -20vmax;
  }
    } 
 
