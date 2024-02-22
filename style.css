@@ -21,11 +21,15 @@
         top: 2vmax;
         left: 200vmax;
     }
-    html{
+    body{
         max-width: 50%;
     }
-
 }
+@media(min-width:578px) {
+ body{ 
+    max-width: 30%;
+ }
+} 
 
 
 body{
