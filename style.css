@@ -1,9 +1,10 @@
-*{
-    box-shadow: 0 0 0 100px transparent; 
-    display: flexbox;
-    content: normal;
-}
 
+@media (min-width:400) {
+    body{ 
+        max-width: 90%;
+    }
+    
+}
 body{
     background-image:  url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg ) ;
     background-size:cover;
