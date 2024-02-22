@@ -15,17 +15,26 @@
       body{
           max-width: 30%;
          }
+         section a { 
+            font-size: 14px;
+         }
   }
   
   @media (min-width:480) {
       body{
           max-width: 20%;
          }
+         section a { 
+            font-size: 10px;
+         }
   }
   
   @media (min-width:320) {
       body{
           max-width: 10%;
+         }
+         section a { 
+            font-size: 5px;
          }
   }
   
