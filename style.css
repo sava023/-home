@@ -44,9 +44,7 @@
   }
 
   @media(min-width:50) {
-    body{
-        max-width: 10%;
-       }
+   
     #vxod{ 
         position: absolute;
         top: 10vmax;
