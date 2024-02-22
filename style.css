@@ -90,18 +90,26 @@ left: 1100px;
 #vxod:hover{
  color: white;
 }
-header a{
-margin-left: 100px;
-text-decoration: none;
-left: 60px;
-top: -60px;
-position: relative;
-font-size: 25px;
-color: black;
-transform:color 0.3s;
+.container2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-decoration: none;
+    width: 5%;
+margin-left: 10vmax;
+margin-top: -3vmax;
+
 
 }
-a:hover{
+header a {
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transform:color 0.3s;
+    
+    }
+header.container2:hover{
     color: #3816A6;
     
     
@@ -143,7 +151,8 @@ a:hover{
 }
 #h1{ 
     content: normal;
-    text-align: center;
+    position: relative;
+    left: 19vmax;
     font-size: 40px;
     font-weight: 900;
 
@@ -152,7 +161,7 @@ a:hover{
     font-size: 20px;
     position: relative;
     top: -30px;
-   left: 300px;
+   left: 20vmax;
     line-height: 1;
    text-align:center;
    width:700px ;
