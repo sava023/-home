@@ -78,14 +78,17 @@ body{
 }
 #vxod{ 
     position: absolute;
-top: 12px;
-left: 1100px;
-    font-size: 30px;
+    top: 1vmax;
+    left: 90vmax;
+    text-decoration: none   ;
     background-color: transparent;
-    border: 1px solid white;
-   color: black;
+    border: 2px solid black;
+    color: black;
     transform: color 0.3s ease;
-    border-radius: 10px;
+    border-radius:20px;
+    width: 70px;
+    font-size: 25px;
+
 }
 #vxod:hover{
  color: white;
@@ -102,9 +105,10 @@ margin-top: -3vmax;
 
 }
 header a {
-    margin-left: 100px;
+    margin-left: 120px;
     text-decoration: none;
     font-size: 25px;
+    width: 50px;
     color: black;
     transform:color 0.3s;
     
@@ -126,7 +130,7 @@ header.container2:hover{
 }
 #opisani{
     position: relative;
-    top: -5px;
+    top: 5vmax;
     left: 10px;
     font-weight: 900;
     font-size: 40px;
@@ -135,7 +139,7 @@ header.container2:hover{
 }
 #perexod{ 
     position: relative;
-   top: -230px;
+   top: -8vmax;
    left: 10px;
     border: 1px solid white;
     background-color: #02092a;
