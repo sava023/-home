@@ -35,6 +35,11 @@
       body{
           max-width: 10%;
          }
+         #vxod{ 
+            position: absolute;
+            top: 10vmax;
+            left: 350vmax;
+        }
     
   }
 
@@ -43,7 +48,9 @@
         max-width: 10%;
        }
     #vxod{ 
-        left: 80vmax;
+        position: absolute;
+        top: 10vmax;
+        left: 350vmax;
     }
   
 
