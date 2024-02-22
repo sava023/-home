@@ -39,7 +39,7 @@
 } 
 @media(min-width:200px) {
     body{ 
-       max-width: 20%;
+       max-width: 10%;
     }
 #h1{ 
     width: 1000px;
