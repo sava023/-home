@@ -39,14 +39,14 @@
 } 
 @media(min-width:200px) {
     body{ 
-       max-width: 10%;
+       max-width: 4%;
     }
 #h1{ 
     width: 1000px;
-    margin-left: -90px;
+    margin-left: -100px;
 }
 #opisanie{ 
-    margin-left: -20px;
+    margin-left: -30px;
  
 }
 #vxod{ 
@@ -60,7 +60,7 @@ header{
     margin-top: 20vmax;
 }
 iframe { 
-    max-width: 600%;
+   
    margin-left: -200px;
 }
 #perexod{ 
@@ -81,7 +81,7 @@ footer{
     margin-left: 30px;
  }
  #prim{ 
-    margin-left: -50vmax;
+    margin-left: -10vmax;
  }
    } 
 
