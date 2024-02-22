@@ -40,14 +40,13 @@
 @media(min-width:200px) {
     body{ 
        max-width: 20%;
-       font-size: 10px;
     }
 #h1{ 
     width: 1000px;
-    margin-left: -55px;
+    margin-left: -60px;
 }
 #opisanie{ 
-    margin-left: -15px;
+    margin-left: -20px;
  
 }
 #vxod{ 
@@ -55,7 +54,7 @@
 }
 header{ 
     max-width: 20%;   
-     margin-top: -3vmax;
+     margin-top: -5vmax;
 }
  main{ 
     margin-top: 20vmax;
