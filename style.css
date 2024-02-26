@@ -1,98 +1,12 @@
-@media only screen and (min-width:1200px) {
-   body{ 
-    max-width: 100%;
-   }
-   header{ 
-    margin-top: -10vmax;
-   }
-  }
-  
-  @media only screen and (min-width:992px) {
-    header{ 
-        margin-top: -10vmax;
-       }
-  body{ 
-    max-width: 50%;
-  }
 
-  }
-  
-  @media only screen and (min-width:768px) {
-   
-    body{
-        max-width: 100%;
-    }
-    header{ 
-        margin-top: -10vmax;
-       }
-}
-@media only screen and (min-width:578px) {
 
- body{ 
-
- }
- header{ 
-    max-width: 800px;
-    margin-top: 50vmax;
-   }
-} 
-@media only screen and (min-width:200px)  {
-    *{
-        max-width: 500px;
-    }
-    body{ 
-       max-width: 400px;
-    }
-#h1{ 
-    width: 1000px;
-    margin-left: -100px;
-}
-#opisanie{ 
-    margin-left: -30px;
- 
-}
-#vxod{ 
-    margin-left: 15vmax;
-}
-header{ 
-    max-width: 400px;   
-     margin-top: -8vmax;
-}
- main{ 
-    margin-top: 20vmax;
-}
-iframe { 
-   
-   margin-left: -200px;
-}
-#perexod{ 
-    margin-top: 10vmax;
-}
-footer{ 
-    width: 10%;
-    margin-top: 200px;
-    margin-left: -70px;
-}
-#infa{ 
-    margin-left: 65px;
-}
- #konekt{ 
-    margin-left: 10px;
- }
- #vigoda{
-    margin-left: 30px;
- }
- #prim{ 
-    margin-left: -10vmax;
- }
-   } 
 
 
 body{
     background-image:  url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg ) ;
-    background-size:cover;
-    
-     
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center;   
 }
 .logo{ 
     width: 49px;
@@ -101,18 +15,13 @@ body{
     left: 3%;
 }
 #vxod{ 
-    max-width: 1200px;
-    position: absolute;
-    top: 1vmax;
-    left: 90vmax;
+   border-radius: 10px;
     text-decoration: none;
     background-color: transparent;
     border: 2px solid black;
     color: black;
     transform: color 0.3s ease;
-    border-radius:20px;
-    width: 70px;
-    font-size: 25px;
+   font-size: 30px;
 
 }
 #vxod:hover{
@@ -149,8 +58,7 @@ header.container2:hover{
 }
 #video{ 
  position: relative;
- left: 600px;
- top: -9cap;
+ left: 550px;
  border: 1px solid purple;
  border-radius: 10px;
 }
