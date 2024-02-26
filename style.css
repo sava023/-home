@@ -1,4 +1,4 @@
-@media(min-width:1200px) {
+@media only screen and (min-width:1200px) {
    body{ 
     max-width: 100%;
    }
@@ -7,7 +7,7 @@
    }
   }
   
-  @media(min-width:992px) {
+  @media only screen and (min-width:992px) {
     header{ 
         margin-top: -10vmax;
        }
@@ -17,7 +17,7 @@
 
   }
   
-  @media(min-width:768px) {
+  @media only screen and (min-width:768px) {
    
     body{
         max-width: 100%;
@@ -26,15 +26,20 @@
         margin-top: -10vmax;
        }
 }
-@media(min-width:578px) {
+@media only screen and (min-width:578px) {
+
  body{ 
-    max-width: 10%;
+
  }
  header{ 
-    margin-top: -7vmax;
+    max-width: 800px;
+    margin-top: 50vmax;
    }
 } 
-@media(min-width:200px)  {
+@media only screen and (min-width:200px)  {
+    *{
+        max-width: 500px;
+    }
     body{ 
        max-width: 400px;
     }
@@ -50,7 +55,7 @@
     margin-left: 15vmax;
 }
 header{ 
-    max-width: 20%;   
+    max-width: 400px;   
      margin-top: -8vmax;
 }
  main{ 
